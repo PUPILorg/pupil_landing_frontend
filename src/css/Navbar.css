@@ -1,0 +1,32 @@
+.navbar {
+    overflow: hidden;
+    height: 60px;
+    /*padding-top: 10px;*/
+    padding-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;*/
+}
+
+.navbar-link {
+    font-family: "Roboto";
+    color: #000;
+    text-align: center;
+    margin: auto 15px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar{
+        justify-content: center;
+    }
+}
