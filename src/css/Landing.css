@@ -2,17 +2,24 @@
     font-family: 'EB Garamond', serif;
     margin-top: 60px;
     scroll-behavior: smooth;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
     /*height: calc(100vh - 60px);*/
 }
 
 .container{
     display: flex;
-    align-items: center;
     justify-content: center;
     min-height: calc(100vh - 60px);
     /*border: solid 1px black;*/
     box-sizing: border-box;
+}
+
+.main-container{
+    align-items: center;
+}
+
+.secondary-container{
+    align-items: flex-start;
 }
 
 .section{
