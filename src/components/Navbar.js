@@ -10,9 +10,6 @@ function Navbar(){
         <NavLink to={"/team"} className={"navbar-link"}>
             Team
         </NavLink>
-        <NavLink to={"/faqs"} className={"navbar-link"}>
-            FAQs
-        </NavLink>
         <NavLink to={"/contact"} className={"navbar-link"}>
             Contact
         </NavLink>

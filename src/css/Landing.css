@@ -2,15 +2,12 @@
     font-family: 'EB Garamond', serif;
     margin-top: 60px;
     scroll-behavior: smooth;
-    /*margin-bottom: 60px;*/
-    /*height: calc(100vh - 60px);*/
 }
 
 .container{
     display: flex;
     justify-content: center;
     min-height: calc(100vh - 60px);
-    /*border: solid 1px black;*/
     box-sizing: border-box;
 }
 
@@ -23,8 +20,11 @@
 }
 
 .section{
-    /*margin-top: -60px;*/
     max-width: 50%;
+}
+
+.bottom-paragraph{
+    margin-bottom: 40px;
 }
 
 .home-header {
@@ -51,8 +51,5 @@
     font-size: 16px;
     padding: 5px 10px;
     font-weight: 400;
-    /*background-color: #171A20CC;*/
-    /*background-color: #000;*/
-    /*border-radius: 5px;*/
     border: 1px solid #000;
 }
