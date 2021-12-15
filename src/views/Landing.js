@@ -51,9 +51,9 @@ function Landing() {
                     </p>
                     <h2>We offer the solution.</h2>
                     <p className={"bottom-paragraph"}>Pupil enables professors to have their lectures automatically
-                        recorded and uploaded and provides students with convenient online access to all of their class
-                        lectures. This is done through intelligent hardware and software that is easy to set up and even
-                        easier to use.
+                        recorded and uploaded to a secure location based on their class schedules. In turn, this gives
+                        students convenient online access to all of their class lecture recordings. This is done through an
+                        intelligent recording device in each classroom that is connected to a Pupil scheduling server.
                     </p>
                     <div style={{textAlign: "center"}}>
                         <NavLink to={"/about"} className={"learn-more-link"}>See the details</NavLink>
