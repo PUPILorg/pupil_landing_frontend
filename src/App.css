@@ -14,13 +14,17 @@
     }
 }
 
+h1{
+    font-family: 'EB Garamond', serif;
+}
+
 h2 {
     font-size: 28px;
     font-family: 'Roboto';
     font-weight: 500;
 }
 
-p {
+p, ol {
     font-family: "Roboto";
     color: #000;
     font-size: 16px;

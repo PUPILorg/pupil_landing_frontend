@@ -5,17 +5,20 @@ import Navbar from "./components/Navbar";
 import About from "./views/About";
 import Landing from "./views/Landing";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
         <Router>
-            <div className="App">
-                <Navbar/>
-                <Routes>
-                    <Route exact path="/" element={<Landing/>}/>
-                    <Route path="/about" element={<About/>}/>
-                </Routes>
-            </div>
+            <ScrollToTop>
+                <div className="App">
+                    <Navbar/>
+                    <Routes>
+                        <Route exact path="/" element={<Landing/>}/>
+                        <Route path="/about" element={<About/>}/>
+                    </Routes>
+                </div>
+            </ScrollToTop>
         </Router>
     );
 }

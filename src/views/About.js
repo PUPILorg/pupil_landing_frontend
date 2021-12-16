@@ -46,16 +46,16 @@ function About() {
                     <h2>The solution:</h2>
                     <p>
                         Pupil serves two main functions:
-                        <ol>
-                            <li>
-                                To provide professors with a way to automatically record and upload their lectures
-                                online based on their class schedule
-                            </li>
-                            <li>
-                                To give students convenient online access to recordings of their in-person lectures
-                            </li>
-                        </ol>
                     </p>
+                    <ol>
+                        <li>
+                            To provide professors with a way to automatically record and upload their lectures
+                            online based on their class schedule
+                        </li>
+                        <li>
+                            To give students convenient online access to recordings of their in-person lectures
+                        </li>
+                    </ol>
                     <p className={"bottom-paragraph"}>
                         This way, students get the benefit of lecture recordings and professors lose the hassle.
                     </p>
@@ -127,7 +127,7 @@ function About() {
                         resource for their success in school. We also believe that the tools that currently exist for
                         recording college lectures are a waste of valuable time and effort and produce only mediocre
                         results. Pupil provides a full system that benefits both students and professors, and finally
-                        brings college education into the modern age</p>
+                        brings college education into the modern age.</p>
 
                     <h2>Development:</h2>
                     <p className={"bottom-paragraph"}>
