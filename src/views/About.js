@@ -11,11 +11,9 @@ import {NavLink} from "react-router-dom";
 function About() {
     return <div>
         <div className={"home-page"}>
-            <div>
-                <h1 className={"about-header"}>
-                    What is pupil?
-                </h1>
-            </div>
+            <h1 className={"about-header"}>
+                What is pupil?
+            </h1>
             <div className={"container secondary-container"}>
                 <div className={"section learn-more-section"}>
                     <h2>The problem to address:</h2>
@@ -135,9 +133,9 @@ function About() {
                         and updates, visit <NavLink to={"/development"}>Development</NavLink>.
                     </p>
                 </div>
+                <Footer/>
             </div>
         </div>
-        <Footer/>
     </div>
 }
 

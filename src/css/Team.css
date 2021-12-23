@@ -1,0 +1,24 @@
+.team-page{
+    margin-top: 60px;
+}
+
+.team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: calc(100vh - 60px);
+}
+
+.team-column{
+    max-width: 50%;
+}
+.team-member-card{
+    text-align: start;
+}
+
+.team-header{
+    margin: 0 0 auto 0;
+    padding-bottom: 20px;
+}

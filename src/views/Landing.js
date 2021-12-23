@@ -55,13 +55,13 @@ function Landing() {
                         students convenient online access to all of their class lecture recordings. This is done through an
                         intelligent recording device in each classroom that is connected to a Pupil scheduling server.
                     </p>
-                    <div style={{textAlign: "center"}}>
+                    <div style={{textAlign: "center", marginBottom: "20px"}}>
                         <NavLink to={"/about"} className={"learn-more-link"}>See the details</NavLink>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </div>
-        <Footer/>
     </div>
 }
 
