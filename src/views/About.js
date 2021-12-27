@@ -129,8 +129,8 @@ function About() {
 
                     <h2>Development:</h2>
                     <p className={"bottom-paragraph"}>
-                        Pupil is currently testing in classrooms at the University of Utah. To follow development stages
-                        and updates, visit <NavLink to={"/development"}>Development</NavLink>.
+                        Pupil is currently testing in classrooms at the University of Utah, where it will continue to
+                        receive feedback from professors and students until launch.
                     </p>
                 </div>
                 <Footer/>
