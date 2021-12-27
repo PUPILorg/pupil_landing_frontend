@@ -7,6 +7,7 @@ import Landing from "./views/Landing";
 import Team from "./views/Team";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import Contact from "./views/Contact";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         <Route exact path="/" element={<Landing/>}/>
                         <Route path="/about" element={<About/>}/>
                         <Route path={"/team"} element={<Team/>}/>
+                        <Route path={"/contact"} element={<Contact/>}/>
                     </Routes>
                 </div>
             </ScrollToTop>

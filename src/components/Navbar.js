@@ -16,9 +16,6 @@ function Navbar(){
         <NavLink to={"/contact"} className={"navbar-link"}>
             Contact
         </NavLink>
-        <NavLink to={"/development"} className={"navbar-link"}>
-            Development
-        </NavLink>
     </div>
 }
 

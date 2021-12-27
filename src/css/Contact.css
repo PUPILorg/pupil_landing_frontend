@@ -1,0 +1,15 @@
+.contact-page{
+    margin-top: 60px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: calc(100vh - 60px);
+}
+.email-us{
+    font-weight: 400;
+}

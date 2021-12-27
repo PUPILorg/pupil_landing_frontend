@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/Landing.css";
 import Footer from "../components/Footer";
-import {NavLink} from "react-router-dom";
 
 /**
  *
@@ -29,8 +28,9 @@ function About() {
                     </p>
                     <p>Or what if a student gets sick and has to miss a lecture? Their
                         best option is to find someone who is willing to share their notes, or try to decipher the
-                        textbook to find the information. Just to make it worse: remember that the student is still
-                        paying for that lecture. So, a student has to make a choice between taking care of their health
+                        textbook to find the information. Just to make it worse: remember that the student <i>is still
+                            paying</i> for that lecture. So, a student has to make a choice between taking care of their
+                        health
                         or going to class. For many students, the choice is to go to class.
                     </p>
                     <p>Some professors do record their lectures, addressing many of the issues that students face.
@@ -58,6 +58,36 @@ function About() {
                         This way, students get the benefit of lecture recordings and professors lose the hassle.
                     </p>
 
+
+                    <h2>Technology:</h2>
+                    <p>Lectures are recorded using a Pupil Recorder, a smart device that stays in a classroom.
+                        Installation and setup of a Recorder is handled by the university’s technology management and is
+                        requested when a professor wishes to record a lecture in a classroom that does not contain a
+                        Recorder. If a Recorder already exists in a classroom, any professor using that classroom can
+                        set up a recording schedule.</p>
+                    <p>
+                        When setting up a recording schedule, a professor can choose to use a camera, projected
+                        material, or both. In each case, the recorder only records data from a media type if a professor
+                        chooses that media type <i>and</i> the Recorder detects a connection on the corresponding
+                        inputs. One key aspect of the Recorder is that the camera and projector connections pass through
+                        the recorder, meaning that a professor can use the cameras or projectors as if the Recorder
+                        wasn’t even there.
+                    </p>
+                    <p>
+                        When a professor sets up a lecture schedule in their account, a corresponding task is created in
+                        the Pupil database. Then, whenever this lecture is scheduled to start, the Recorder in that
+                        classroom is prompted to begin recording the lecture. At the end of a lecture, the Recorder ends
+                        the recording and the video is uploaded to the professor’s online account.
+                    </p>
+                    <p className={"bottom-paragraph"}>
+                        During a lecture, video is saved to an SD card in the Recorder. Once a video is uploaded to a
+                        professor’s account, the video files are then cleared from the SD card. However, in the case
+                        that a video fails to upload, the video will be preserved on the SD card so that the professor
+                        can manually upload it to their account. This way, professors and students can be confident that
+                        their lecture recordings are safe.
+                    </p>
+
+
                     <h2>A walkthrough:</h2>
 
                     <p><i>For professors:</i></p>
@@ -75,7 +105,7 @@ function About() {
                         After a lecture, a professor can easily view, annotate, or edit a video. Once the video is
                         ready, with the click of a button, it’s published to be viewed by the students in their class. A
                         professor can alternatively choose to have their videos automatically published to their
-                        students after a lecture to completely automate the process.
+                        students after a lecture to <i>completely</i> automate the process.
                     </p>
 
                     <p><i>For students:</i></p>
@@ -90,32 +120,6 @@ function About() {
                         share, or both. This way, the student won’t miss a thing, even if the professor chooses to
                         utilize
                         multiple types of displays at the same time.
-                    </p>
-
-                    <h2>Technology:</h2>
-                    <p>Lectures are recorded using a Pupil Recorder, a smart device that stays in a classroom.
-                        Installation and setup of a Recorder is handled by the university’s technology management and is
-                        requested when a professor wishes to record a lecture in a classroom that does not contain a
-                        Recorder. If a Recorder already exists in a classroom, any professor using that classroom can
-                        set up a recording schedule.</p>
-                    <p>
-                        When setting up a recording schedule, a professor can choose to use a camera, projected
-                        material, or both. In each case, the recorder only records data from a media type if a professor
-                        chooses that media type and the Recorder detects a connection on the corresponding inputs. One
-                        key aspect of the Recorder is that it sits inline its connections to the camera and
-                        projectors, meaning that a professor can use the cameras or projectors as if the Recorder wasn’t
-                        even there.
-                    </p>
-                    <p>
-                        When a professor sets up a lecture schedule in their account, a corresponding task is created in
-                        the Pupil database. Then, whenever this lecture is scheduled to start, the Recorder in that
-                        classroom is prompted to begin recording the lecture. At the end of a lecture, the Recorder ends
-                        the recording and the video is uploaded to the professor’s online account.
-                    </p>
-                    <p className={"bottom-paragraph"}>
-                        The Recorder is constantly streaming its data to the server, so in the case of a power outage,
-                        coffee spill, or other mishap, all data recorded up to the point of disconnection is preserved.
-                        This way, professors and students can be confident that their lecture recordings are safe.
                     </p>
 
                     <h2>The vision:</h2>
