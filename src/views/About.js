@@ -11,11 +11,11 @@ function About() {
     return <div>
         <div className={"home-page"}>
             <h1 className={"about-header"}>
-                What is pupil?
+                What is Pupil?
             </h1>
             <div className={"container secondary-container"}>
                 <div className={"section learn-more-section"}>
-                    <h2>The problem to address:</h2>
+                    <h2>The problem:</h2>
                     <p>Students often pay a lot of money to go to college and attend lectures where they hope to learn
                         the material that will set them up for the rest of their lives. Unfortunately for them, they
                         often only get to watch these lectures once. Some would say that this isn’t a problem if that
@@ -34,7 +34,8 @@ function About() {
                         or going to class. For many students, the choice is to go to class.
                     </p>
                     <p>Some professors do record their lectures, addressing many of the issues that students face.
-                        However, managing a lecture recording is a hassle that takes extra time and effort, on top of
+                        However, managing a lecture recording is a hassle that takes extra time and effort each lecture,
+                        on top of
                         their already busy workload. Some professors prefer to avoid this hassle altogether and not
                         record their lectures.</p>
                     <p className={"bottom-paragraph"}>Pupil offers a solution to each of these problems and more in an
@@ -60,7 +61,7 @@ function About() {
 
 
                     <h2>Technology:</h2>
-                    <p>Lectures are recorded using a Pupil Recorder, a smart device that stays in a classroom.
+                    <p>Lectures are recorded using a Pupil Recorder, a smart device that is secured in a classroom.
                         Installation and setup of a Recorder is handled by the university’s technology management and is
                         requested when a professor wishes to record a lecture in a classroom that does not contain a
                         Recorder. If a Recorder already exists in a classroom, any professor using that classroom can
@@ -76,7 +77,8 @@ function About() {
                     <p>
                         When a professor sets up a lecture schedule in their account, a corresponding task is created in
                         the Pupil database. Then, whenever this lecture is scheduled to start, the Recorder in that
-                        classroom is prompted to begin recording the lecture. At the end of a lecture, the Recorder ends
+                        classroom begins recording with no action required by the professor. At the end of a lecture,
+                        the Recorder ends
                         the recording and the video is uploaded to the professor’s online account.
                     </p>
                     <p className={"bottom-paragraph"}>
@@ -100,7 +102,7 @@ function About() {
                         both) can be selected when setting up the recording schedule.
                     </p>
                     <p>During the lecture, a professor can pause or stop the recording using their account dashboard
-                        online.</p>
+                        online. Future releases will include a mobile app.</p>
                     <p>
                         After a lecture, a professor can easily view, annotate, or edit a video. Once the video is
                         ready, with the click of a button, it’s published to be viewed by the students in their class. A
@@ -112,7 +114,8 @@ function About() {
                     <p>
                         A student must first create an online account using their school email to gain access to their
                         professor’s lecture recordings. Each of their classes that use Pupil to record lectures are
-                        displayed in their dashboard. Within each class section, a student has access to all of the
+                        displayed in their dashboard. Within each of their class sections, a student has access to all
+                        of the
                         lecture recordings from that class.
                     </p>
                     <p className={"bottom-paragraph"}>
@@ -127,8 +130,9 @@ function About() {
                         We believe that giving students
                         the ability to conveniently review high quality lecture videos provides them with a crucial
                         resource for their success in school. We also believe that the tools that currently exist for
-                        recording college lectures are a waste of valuable time and effort and produce only mediocre
-                        results. Pupil provides a full system that benefits both students and professors, and finally
+                        recording college lectures are cumbersome, produce only mediocre
+                        results, are therefore have low adoption. Pupil provides a full system that benefits both
+                        students and professors, and finally
                         brings college education into the modern age.</p>
 
                     <h2>Development:</h2>
