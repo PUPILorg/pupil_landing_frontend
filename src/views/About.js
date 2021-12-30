@@ -10,11 +10,11 @@ import Footer from "../components/Footer";
 function About() {
     return <div>
         <div className={"home-page"}>
-            <h1 className={"about-header"}>
-                What is Pupil?
-            </h1>
-            <div className={"container secondary-container"}>
+            <div className={"container"}>
                 <div className={"section learn-more-section"}>
+                    <h1>
+                        What is Pupil?
+                    </h1>
                     <h2>The problem:</h2>
                     <p>Students often pay a lot of money to go to college and attend lectures where they hope to learn
                         the material that will set them up for the rest of their lives. Unfortunately for them, they
@@ -141,8 +141,8 @@ function About() {
                         receive feedback from professors and students until launch.
                     </p>
                 </div>
-                <Footer/>
             </div>
+            <Footer/>
         </div>
     </div>
 }

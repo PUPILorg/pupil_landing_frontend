@@ -1,39 +1,50 @@
-.navbar {
-    overflow: hidden;
+.navbar-wrapper{
     height: 60px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
     z-index: 1;
     background-color: #FFFFFF;
-    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;*/
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #FFFFFF;
 }
 
 .navbar-left-item{
-    margin-right: auto;
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     text-decoration: none;
-    margin-left: 24px;
-    color: #000;
+    color: #1D242B;
+    margin: 0 auto 0 24px;
 }
 
 .navbar-link {
-    font-family: "Roboto";
-    color: #000;
+    color: #1D242B;
     margin: 0 24px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+}
+
+.active{
+    color: #0077C0;
 }
 
 @media only screen and (max-width: 500px) {
     .navbar{
-        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .navbar-left-item{
+        margin: 0 0 0 24px;
     }
 }

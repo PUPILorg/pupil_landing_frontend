@@ -12,10 +12,10 @@ import Footer from "../components/Footer";
 function Landing() {
     return <div>
         <div className={"home-page"}>
-            <div className={"container main-container"}>
+            <div className={"container"}>
                 <div className={"section"}>
                     <h1 className={"home-header"}>
-                        pupil
+                        Pupil
                     </h1>
                     <div>
                         <h2 className={"home-sub-header"}>
@@ -27,7 +27,7 @@ function Landing() {
                     </div>
                 </div>
             </div>
-            <div className={"container secondary-container"} id={"learn-more"}>
+            <div className={"container"} id={"learn-more"}>
                 <div className={"section learn-more-section"}>
                     <h2 style={{marginTop: 0}}>Students deserve better.</h2>
                     <p>A student's goal in going to college is to learn material—not to learn material the first time
@@ -55,12 +55,12 @@ function Landing() {
                         students convenient online access to all of their class lecture recordings. This is done through an
                         intelligent recording device in each classroom that is connected to a Pupil scheduling server.
                     </p>
-                    <div style={{textAlign: "center", marginBottom: "20px"}}>
+                    <div style={{marginBottom: "20px"}}>
                         <NavLink to={"/about"} className={"learn-more-link"}>See the details</NavLink>
                     </div>
                 </div>
-                <Footer/>
             </div>
+            <Footer/>
         </div>
     </div>
 }

@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     min-height: calc(100vh - 60px);
 }
 
@@ -16,10 +15,25 @@
 }
 .team-member-card{
     text-align: start;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .team-header{
-    margin: 0 0 auto 0;
-    padding-bottom: 20px;
+}
+
+.apply-link{
+    font-family: "Roboto";
+    color: #0077C0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 500px) {
+    .team-column{
+        max-width: 100%;
+    }
+    .team-container{
+        padding: 0 24px;
+    }
 }

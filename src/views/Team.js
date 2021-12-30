@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Team.css";
 import Footer from "../components/Footer";
+import {NavLink} from "react-router-dom";
 
 /**
  * The Team page view for the landing site
@@ -11,8 +12,8 @@ function Team() {
     return <div>
         <div className={"team-page"}>
             <div className={"team-container"}>
-                <h1 className={"team-header"}>Meet the team</h1>
                 <div className={"team-column"}>
+                    <h1 className={"team-header"}>Meet the team</h1>
                     <div className={"team-member-card"}>
                         <h2 style={{marginBottom: 0}}>
                             Grant Nations
@@ -52,7 +53,7 @@ function Team() {
                             science at the University of Utah.
                         </p>
                         <p>
-                            In his time at college, Jan has wasted countless hours deciphering books, notes, and slides
+                            In his time at college, Jan has spent countless hours deciphering books, notes, and slides
                             while trying to remember what the professor said during lecture. In order to do well in his
                             classes, he has often had to memorize material instead of internalize it. This problem is
                             the original drive for creating Pupil, and he knows from personal experience how badly this
@@ -71,11 +72,13 @@ function Team() {
                             <li>Business analyst</li>
                             <li>Computer engineer</li>
                         </ul>
-                        <p>Email pupil@gmail.com to apply.</p>
+                        <p>Apply through the <NavLink to={"/contact"} className={"apply-link"}>
+                            Contact
+                        </NavLink> page.</p>
                     </div>
                 </div>
-                <Footer/>
             </div>
+            <Footer/>
         </div>
     </div>
 }

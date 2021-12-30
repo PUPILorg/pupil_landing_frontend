@@ -3,10 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
 }
 
 .footer-company-name{
     font-size: 14px;
-    color: #282c34;
+    color: #1D242B;
 }
