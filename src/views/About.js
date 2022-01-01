@@ -73,10 +73,10 @@ function About() {
                         set up a recording schedule.</p>
                     <p>
                         When setting up a recording schedule, a professor can choose to use a camera, projected
-                        material, or both. In each case, the recorder only records data from a media type if a professor
+                        material, or both. In each case, the Recorder only records data from a media type if a professor
                         chooses that media type <i>and</i> the Recorder detects a connection on the corresponding
                         inputs. One key aspect of the Recorder is that the camera and projector connections pass through
-                        the recorder, meaning that a professor can use the cameras or projectors as if the Recorder
+                        the Recorder, meaning that a professor can use the cameras or projectors as if the Recorder
                         wasn’t even there.
                     </p>
                     <p>
