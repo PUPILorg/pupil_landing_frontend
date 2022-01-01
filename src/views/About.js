@@ -159,7 +159,7 @@ function About() {
                         the ability to conveniently review high quality lecture videos provides them with a crucial
                         resource for their success in school. We also believe that the tools that currently exist for
                         recording college lectures are cumbersome, produce only mediocre
-                        results, are therefore have low adoption. Pupil provides a full system that benefits both
+                        results, and therefore have low adoption. Pupil provides a full system that benefits both
                         students and professors, and finally
                         brings college education into the modern age. Eventually, we believe that this technology should
                         be standard for all college lectures.</p>
