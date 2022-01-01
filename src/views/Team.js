@@ -15,7 +15,7 @@ function Team() {
                 <div className={"team-column"}>
                     <h1>Meet the team</h1>
                     <div className={"team-member-card"}>
-                        <img src="grant_team_pic_128.jpg" alt="Grant Nations"
+                        <img src="/images/grant_team_pic_wedding.jpg" alt="Grant Nations"
                              className={"team-member-pic"}/>
                         <h2 style={{marginBottom: 0}}>
                             Grant Nations
@@ -42,7 +42,7 @@ function Team() {
                         </p>
                     </div>
                     <div className={"team-member-card"}>
-                        <img src="jan_team_pic_128px.jpg" alt="Jan Cas"
+                        <img src="/images/jan_team_pic_128px.jpg" alt="Jan Cas"
                              className={"team-member-pic"}/>
                         <h2 style={{marginBottom: 0}}>
                             Jan Cas

@@ -161,7 +161,8 @@ function About() {
                         recording college lectures are cumbersome, produce only mediocre
                         results, are therefore have low adoption. Pupil provides a full system that benefits both
                         students and professors, and finally
-                        brings college education into the modern age.</p>
+                        brings college education into the modern age. Eventually, we believe that this technology should
+                        be standard for all college lectures.</p>
 
                     <h2>Development:</h2>
                     <p className={"bottom-paragraph"}>

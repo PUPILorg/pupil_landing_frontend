@@ -15,7 +15,7 @@ function Landing() {
             <div className={"container"}>
                 <div className={"section"}>
                     <h1 className={"home-header"}>
-                        Pupil
+                        pupil
                     </h1>
                     <div>
                         <h2 className={"home-sub-header"}>
