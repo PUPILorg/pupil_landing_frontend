@@ -18,6 +18,7 @@
     margin: 0 12px 12px 0;
     border: 1px solid #1D242B;
     flex-grow: 1;
+    font-family: "Roboto", sans-serif;
 }
 
 .contact-textarea{
@@ -25,6 +26,7 @@
     margin: 0 12px 12px 0;
     border: 1px solid #1D242B;
     height: 120px;
+    font-family: "Roboto", sans-serif;
 }
 .contact-form{
     text-align: left;
@@ -39,6 +41,8 @@
     padding: 6px;
     margin: 0 12px 12px 0;
     font-size: 14px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .contact-form-container{

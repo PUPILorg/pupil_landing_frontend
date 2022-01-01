@@ -13,8 +13,10 @@ function Team() {
         <div className={"team-page"}>
             <div className={"team-container"}>
                 <div className={"team-column"}>
-                    <h1 className={"team-header"}>Meet the team</h1>
+                    <h1>Meet the team</h1>
                     <div className={"team-member-card"}>
+                        <img src="grant_team_pic_128.jpg" alt="Grant Nations"
+                             className={"team-member-pic"}/>
                         <h2 style={{marginBottom: 0}}>
                             Grant Nations
                         </h2>
@@ -40,6 +42,8 @@ function Team() {
                         </p>
                     </div>
                     <div className={"team-member-card"}>
+                        <img src="jan_team_pic_128px.jpg" alt="Jan Cas"
+                             className={"team-member-pic"}/>
                         <h2 style={{marginBottom: 0}}>
                             Jan Cas
                         </h2>

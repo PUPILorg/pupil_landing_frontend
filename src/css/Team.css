@@ -15,18 +15,24 @@
 }
 .team-member-card{
     text-align: start;
-    margin-bottom: 30px;
-}
-
-.team-header{
+    margin-bottom: 60px;
 }
 
 .apply-link{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: #0077C0;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
+}
+
+.team-member-pic{
+    width: 128px;
+    height: 128px;
+    margin: 0 20px 0 0;
+    float: left;
+    border-radius: 50%;
+    /*border: 1px solid #0077C0;*/
 }
 
 @media only screen and (max-width: 500px) {
