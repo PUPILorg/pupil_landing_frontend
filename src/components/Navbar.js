@@ -6,7 +6,7 @@ function Navbar() {
     return <div className={"navbar-wrapper"}>
         <div className={"navbar"}>
             <NavLink to={"/"} className={"navbar-left-item"}>
-                Pupil
+                pupil
             </NavLink>
             <NavLink to={"/about"} className={"navbar-link"}>
                 About

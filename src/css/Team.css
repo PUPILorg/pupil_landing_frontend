@@ -11,7 +11,8 @@
 }
 
 .team-column{
-    max-width: 50%;
+    max-width: 850px;
+    margin: 0 24px;
 }
 .team-member-card{
     text-align: start;

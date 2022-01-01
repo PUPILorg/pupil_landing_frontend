@@ -43,9 +43,12 @@
 
 @media only screen and (max-width: 500px) {
     .navbar{
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     .navbar-left-item{
-        margin: 0 0 0 24px;
+        margin: 0;
+    }
+    .navbar-link{
+        margin: 0;
     }
 }

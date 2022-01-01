@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/Landing.css";
 import Footer from "../components/Footer";
+import useWindowDimensions from "../hooks/useWindowDimensions";
+import ResizePng from "../components/ResizePng";
 
 /**
  *
@@ -8,12 +10,15 @@ import Footer from "../components/Footer";
  * @constructor
  */
 function About() {
+
+    const {width} = useWindowDimensions();
+
     return <div>
         <div className={"home-page"}>
             <div className={"container"}>
                 <div className={"section learn-more-section"}>
                     <h1>
-                        What is Pupil?
+                        What is pupil?
                     </h1>
                     <h2>The problem:</h2>
                     <p>Students often pay a lot of money to go to college and attend lectures where they hope to learn
@@ -109,6 +114,17 @@ function About() {
                         professor can alternatively choose to have their videos automatically published to their
                         students after a lecture to <i>completely</i> automate the process.
                     </p>
+                    <div
+                        style={{textAlign: "center"}}
+                    >
+                        <p className={"image-description"}>An example of a professor's class section view.</p>
+                        <ResizePng
+                            imgPrefix={"/images/about_prof_lectures_"}
+                            width={width}
+                            alt={"Professor lectures view"}
+                            style={{maxWidth: "100%", height: "auto", border: "1px solid #1d242b"}}
+                        />
+                    </div>
 
                     <p><i>For students:</i></p>
                     <p>
@@ -118,12 +134,24 @@ function About() {
                         of the
                         lecture recordings from that class.
                     </p>
-                    <p className={"bottom-paragraph"}>
+                    <p>
                         When watching a recording, students are able to view the camera recording, projector screen
                         share, or both. This way, the student won’t miss a thing, even if the professor chooses to
                         utilize
                         multiple types of displays at the same time.
                     </p>
+                    <div
+                        className={"bottom-paragraph"}
+                        style={{textAlign: "center"}}
+                    >
+                        <p className={"image-description"}>An example of a student's dashboard view.</p>
+                        <ResizePng
+                            imgPrefix={"/images/about_student_lectures_"}
+                            width={width}
+                            alt={"Student lectures view"}
+                            style={{maxWidth: "100%", height: "auto", border: "1px solid #1d242b"}}
+                        />
+                    </div>
 
                     <h2>The vision:</h2>
                     <p className={"bottom-paragraph"}>Pupil aims to set a new standard for in-person college lectures.
