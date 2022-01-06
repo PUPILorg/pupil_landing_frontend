@@ -2,9 +2,10 @@ import React from "react";
 import "../css/Contact.css";
 import Footer from "../components/Footer";
 import {useState} from "react";
-import {send} from "emailjs-com";
+import {send, init} from "emailjs-com";
 
 function Contact() {
+
 
     const [toSend, setToSend] = useState({
         from_name: '',
