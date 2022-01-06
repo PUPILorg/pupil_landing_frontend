@@ -2,8 +2,7 @@ import React from "react";
 import "../css/Contact.css";
 import Footer from "../components/Footer";
 import {useState} from "react";
-import{ init, send } from '@emailjs/browser';
-init(process.env.REACT_APP_EMAILJS_USER_ID);
+import{ send } from '@emailjs/browser';
 
 function Contact() {
 
@@ -16,6 +15,7 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
         send(
             process.env.REACT_APP_EMAILJS_SERVICE_ID,
             process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
@@ -64,7 +64,6 @@ function Contact() {
                         />
                     </div>
                     <textarea
-                        type='text'
                         name='message'
                         required={true}
                         value={toSend.message}
