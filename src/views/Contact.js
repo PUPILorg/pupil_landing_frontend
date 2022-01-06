@@ -15,7 +15,6 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
         send(
             process.env.REACT_APP_EMAILJS_SERVICE_ID,
             process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
