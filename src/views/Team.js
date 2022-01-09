@@ -73,8 +73,9 @@ function Team() {
                         <p>Pupil is looking for motivated and hardworking students who want to take part in changing the
                             college education system. The following roles are sought:</p>
                         <ul>
+                            <li>Frontend developers</li>
+                            <li>Computer engineers</li>
                             <li>Business analyst</li>
-                            <li>Computer engineer</li>
                         </ul>
                         <p>Apply through the <NavLink to={"/contact"} className={"apply-link"}>
                             Contact

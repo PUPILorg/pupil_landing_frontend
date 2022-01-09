@@ -118,9 +118,8 @@ function About() {
                         style={{textAlign: "center"}}
                     >
                         <p className={"image-description"}>An example of a professor's class section view.</p>
-                        <ResizePng
-                            imgPrefix={"/images/about_prof_lectures_"}
-                            width={width}
+                        <img
+                            src={"/images/about_prof_lectures_full_res.png"}
                             alt={"Professor lectures view"}
                             style={{maxWidth: "100%", height: "auto", border: "1px solid #1d242b"}}
                         />
@@ -145,9 +144,8 @@ function About() {
                         style={{textAlign: "center"}}
                     >
                         <p className={"image-description"}>An example of a student's dashboard view.</p>
-                        <ResizePng
-                            imgPrefix={"/images/about_student_lectures_"}
-                            width={width}
+                        <img
+                            src={"/images/about_student_lectures_full_res.png"}
                             alt={"Student lectures view"}
                             style={{maxWidth: "100%", height: "auto", border: "1px solid #1d242b"}}
                         />
@@ -166,7 +164,7 @@ function About() {
 
                     <h2>Development:</h2>
                     <p className={"bottom-paragraph"}>
-                        Pupil is currently testing in classrooms at the University of Utah, where it will continue to
+                        Pupil is currently in testing at the University of Utah, where it will continue to
                         receive feedback from professors and students until launch.
                     </p>
                 </div>
