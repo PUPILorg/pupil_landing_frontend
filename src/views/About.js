@@ -86,15 +86,8 @@ function About() {
                         the Recorder ends
                         the recording and the video is uploaded to the professor’s online account.
                     </p>
-                    <p className={"bottom-paragraph"}>
-                        During a lecture, video is saved to an SD card in the Recorder. Once a video is uploaded to a
-                        professor’s account, the video files are then cleared from the SD card. However, in the case
-                        that a video fails to upload, the video will be preserved on the SD card so that the professor
-                        can manually upload it to their account. This way, professors and students can be confident that
-                        their lecture recordings are safe.
-                    </p>
 
-
+vg f
                     <h2>A walkthrough:</h2>
 
                     <p><i>For professors:</i></p>
