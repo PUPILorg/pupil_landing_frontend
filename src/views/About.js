@@ -2,7 +2,6 @@ import React from "react";
 import "../css/Landing.css";
 import Footer from "../components/Footer";
 import useWindowDimensions from "../hooks/useWindowDimensions";
-import ResizePng from "../components/ResizePng";
 
 /**
  *
@@ -87,7 +86,6 @@ function About() {
                         the recording and the video is uploaded to the professor’s online account.
                     </p>
 
-vg f
                     <h2>A walkthrough:</h2>
 
                     <p><i>For professors:</i></p>
