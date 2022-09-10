@@ -37,9 +37,6 @@ function Team() {
                             will
                             help thousands of students reach their highest academic potential.
                         </p>
-                        <p>
-                            He lives by the Elon Musk quote: <i><b>Work like hell.</b></i>
-                        </p>
                     </div>
                     <div className={"team-member-card"}>
                         <img src="/images/jan_team_pic_128px.jpg" alt="Jan Cas"
@@ -67,19 +64,6 @@ function Team() {
                             He is fascinated by the quote: <i><b>Nothing great in the world was accomplished without
                             passion.</b></i> - Georg Wilhelm Friedrich Hegel
                         </p>
-                    </div>
-                    <div className={"team-member-card"}>
-                        <h2>Join the team!</h2>
-                        <p>Pupil is looking for motivated and hardworking students who want to take part in changing the
-                            college education system. The following roles are sought:</p>
-                        <ul>
-                            <li>Frontend developers</li>
-                            <li>Computer engineers</li>
-                            <li>Business analyst</li>
-                        </ul>
-                        <p>Apply through the <NavLink to={"/contact"} className={"apply-link"}>
-                            Contact
-                        </NavLink> page.</p>
                     </div>
                 </div>
             </div>

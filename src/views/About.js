@@ -155,8 +155,7 @@ function About() {
 
                     <h2>Development:</h2>
                     <p className={"bottom-paragraph"}>
-                        Pupil is currently in testing at the University of Utah, where it will continue to
-                        receive feedback from professors and students until launch.
+                        Pupil is no longer being developed.
                     </p>
                 </div>
             </div>
